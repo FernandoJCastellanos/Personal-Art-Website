@@ -1,0 +1,174 @@
+body {
+  background-color: #161616;
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+
+:root, ::after, ::before, ::backdrop {
+  --native-dark-link-color: #fff;
+}
+/* Navbar */
+
+.navbar-dark {
+  color: #fff;
+  background-color: #0A0A0A;
+}
+
+.brand-size {
+  margin-left: 1%;
+}
+
+
+.happy-padding {
+  padding-right: 1%;
+}
+
+
+:root, ::after, ::before, ::backdrop {
+
+--native-dark-visited-link-color: #FFF;
+}
+
+
+/* image container */
+.image {
+  position: relative;
+}
+
+
+.row-padding {
+  padding-right: 0.5%;
+
+}
+
+
+
+
+/*
+/* image text */
+.image__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    opacity: 0%;
+    transition: opacity 0.25s;
+}
+
+.image__overlay:hover {
+opacity: 50%;
+transition: .5s ease;
+}
+
+
+
+
+
+
+
+/* Video Divs */
+
+.video_wrapper {
+position: relative;
+padding-bottom: 0%; /* 16:9, for an aspect ratio of 1:1 change to this value to 100% */
+}
+iframe{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100.5%;
+z-index: 0;
+}
+
+
+
+
+
+/* Play Button Overlay */
+
+.player__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: clear;
+  color: #ffffff;
+  font-family: 'Quicksand', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 100%;
+  transition: opacity 0.25s;
+}
+
+
+
+
+
+/* Youtube DISPLAY VIDEO PLAYERS */
+.LP-display {
+  display: none;
+}
+
+.Freedom-display {
+  display: none;
+}
+
+.SkatePark-display {
+  display: none;
+}
+
+.Pretencious-display {
+  display: none;
+}
+
+.SellOut-display {
+  display: none;
+}
+
+.Shit-display {
+  display: none;
+}
+
+.Ego-display {
+  display: none;
+}
+
+.Love-display {
+  display: none;
+}
+
+.Thriller-display {
+  display: none;
+}
+
+.Cool-display {
+  display: none;
+}
+
+.Explainly-display {
+  display: none;
+}
+
+.Rolling-display {
+  display: none;
+}

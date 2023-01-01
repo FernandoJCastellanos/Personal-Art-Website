@@ -1,0 +1,51 @@
+body {
+  background-color: #161616;
+}
+
+
+:root, ::after, ::before, ::backdrop {
+
+  --native-dark-visited-link-color: #FFF;
+  }
+
+
+
+  :root, ::after, ::before, ::backdrop {
+    --native-dark-link-color: #fff;
+  }
+/* Navbar */
+
+.navbar-dark {
+  color: #fff;
+  background-color: #0A0A0A;
+}
+
+.brand-size {
+  margin-left: 1%;
+}
+
+
+.happy-padding {
+  padding-right: 1%;
+}
+
+
+
+
+
+
+/* mobile */
+
+
+.container-text {
+color: white;
+position: relative;
+display: flex;
+justify-content: center;
+top: 15rem;
+width: 80%;
+margin: auto;
+text-align: center;
+font-size: 5rem;
+}
+

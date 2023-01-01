@@ -1,0 +1,172 @@
+body {
+  background-color: #161616;
+}
+
+:root, ::after, ::before, ::backdrop {
+
+  --native-dark-visited-link-color: #FFF;
+  }
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+
+:root, ::after, ::before, ::backdrop {
+  --native-dark-link-color: #fff;
+}
+/* Navbar */
+
+.navbar-dark {
+  color: #fff;
+  background-color: #0A0A0A;
+}
+
+.brand-size {
+  margin-left: 1%;
+}
+
+
+.happy-padding {
+  padding-right: 1%;
+}
+
+
+/* image container */
+.image {
+    position: relative;
+    display: flex;
+}
+
+
+
+/* Video Divs */
+
+.video_wrapper {
+position: relative;
+padding-bottom: 0%;
+}
+iframe{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 105%;
+z-index: 0;
+}
+
+
+/* Play Button Overlay */
+
+.player__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: clear;
+  color: #ffffff;
+  font-family: 'Quicksand', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 100%;
+  transition: opacity 0.25s;
+}
+
+
+
+
+/* Text */
+
+.powerText {
+  width: 100%;
+}
+
+.labText {
+  width: 100%;
+}
+
+.fireText {
+  width: 100%;
+}
+
+.forkText {
+  width: 100%;
+}
+
+
+.text-episode{
+  color:#ffff;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  /* transform: translate(0, 250%); */
+  transform-origin: center;
+  top: 10%;
+}
+
+
+.text-body {
+  color:#ffff !important;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  transform: translate(0,0%);
+  transform-origin: center;
+  top: 35%;
+}
+
+
+.padding-off {
+padding-left: 0%;
+padding-right: 0%;
+
+}
+
+
+
+.overflow {
+
+overflow: auto;
+
+}
+
+
+
+
+/* Video Displays */
+
+
+.Fork-display {
+  display: none;
+  justify-content: center;
+}
+
+
+
+.Fire-display {
+  display: none;
+  justify-content: center;
+}
+
+
+
+
+.Lab-display {
+  display: none;
+  justify-content: center;
+}
+
+
+
+
+.Power-display {
+  display: none;
+  justify-content: center;
+}
